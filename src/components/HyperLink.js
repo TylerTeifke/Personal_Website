@@ -1,9 +1,9 @@
 /*
 * This class will be for creating links to other web pages
 */
-import './Link.css'
+import './HyperLink.css'
 
-const Link = ({ web_page, name }) => {
+const HyperLink = ({ web_page, name }) => {
 
     return(
         <a className="App-link" href={web_page}>
@@ -12,4 +12,4 @@ const Link = ({ web_page, name }) => {
     )
 }
 
-export default Link
+export default HyperLink
