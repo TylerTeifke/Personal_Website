@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    column-gap: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.picture {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.description {
+    font-size: 20px;
+}

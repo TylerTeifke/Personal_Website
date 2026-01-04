@@ -1,12 +1,12 @@
 //This will be the home page for the website
-import picture from '../myself.jpg'
+import picture from '../pictures/myself.jpg'
 import HyperLink from '../components/HyperLink'
 import PageList from '../components/PageList'
-import './Home.css'
+import './Page.css'
 
 const Home = () => {
     return (
-    <div className="Page">
+    <div>
       <header className="header">
         <PageList/>
         <img src={picture} className="picture" alt="" />
