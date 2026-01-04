@@ -21,7 +21,7 @@ const Personal = () => {
             <h2>
                 Grocery Store Database
             </h2>
-            <Project image={menus} description={"Created a rudimentary database for a grocery store using Python and SQLite3. Python was used to create simple menus for user interaction, while SQLite was used for creating and querying the database. I also personally created the schema for the database using my knowledge of the fundamentals of good database design."}/>
+            <Project image={menus} project_link={'https://github.com/TylerTeifke/Grocery-Store'} description={"Created a rudimentary database for a grocery store using Python and SQLite3. Python was used to create simple menus for user interaction, while SQLite was used for creating and querying the database. I also personally created the schema for the database using my knowledge of the fundamentals of good database design."}/>
             <p>test</p>
             <p>test</p>
             <p>test</p>
