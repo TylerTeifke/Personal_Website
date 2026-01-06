@@ -5,6 +5,11 @@
     margin-right: 140px;
 }
 
+.box:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
 .picture {
     height: 40vmin;
     pointer-events: none;
