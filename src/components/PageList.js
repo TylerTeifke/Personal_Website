@@ -9,7 +9,6 @@ const PageList = () => {
             <a href="/">Home</a>
             <a href="/About">About</a>
             <a href="/Personal">Personal Projects</a>
-            <a href="/University">University Projects</a>
         </div>
     )
 }

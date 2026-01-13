@@ -9,6 +9,10 @@ body {
   pointer-events: none;
 }
 
+.screenshot {
+  height: 60vmin;
+}
+
 .header {
   min-height: 50vh;
   display: flex;
@@ -21,4 +25,15 @@ body {
 .Intro-text {
   margin-left: 120px;
   margin-right: 120px;
+}
+
+.flexbox {
+  display: flex;
+  column-gap: 30px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.box-text {
+  font-size: 20px;
 }

@@ -1,5 +1,5 @@
 //This will be the about page for the website
-import picture from '../pictures/myself.jpg'
+import picture from '../pictures/Rocky_and_me.jpg'
 import HyperLink from '../components/HyperLink'
 import PageList from '../components/PageList'
 import './Page.css'
@@ -11,8 +11,7 @@ const About = () => {
         <PageList/>
         <img src={picture} className="picture" alt="" />
         <p className='Intro-text'>
-          Hello, my name is Tyler Teifke and this is my personal website that I use to demonstrate my
-          knowledge of computer programming. I am a computer programmer from Bothell, Washington, with
+          I am a computer programmer from Bothell, Washington, with
           a Bachelors degree in computer science from the University of Washington. I am highly
           highly proficient in object-oriented programming through languages like Java, C++, and Python,
           all of which I have used on various projects that you can find on this website. I am also
