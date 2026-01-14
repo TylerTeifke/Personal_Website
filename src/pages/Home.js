@@ -6,8 +6,6 @@ import software_picture from '../pictures/recursive_solve.png'
 import web_dev from '../pictures/after_css.png'
 import database from '../pictures/database_structure.png'
 
-import React from 'react'
-
 import PageList from '../components/PageList'
 import './Page.css'
 //import 'bootstrap/dist/css/bootstrap.css';
