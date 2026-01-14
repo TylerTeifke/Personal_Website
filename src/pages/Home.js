@@ -6,10 +6,27 @@ import software_picture from '../pictures/recursive_solve.png'
 import web_dev from '../pictures/after_css.png'
 import database from '../pictures/database_structure.png'
 
+import React from 'react'
+
 import PageList from '../components/PageList'
 import './Page.css'
+//import 'bootstrap/dist/css/bootstrap.css';
 
 const Home = () => {
+    const downloadResume = () => {
+      //Code gotten from: https://www.geeksforgeeks.org/reactjs/how-to-download-pdf-file-in-reactjs/
+      fetch("file:///C:/Users/dante/OneDrive/Documents/Resume/Resume.pdf").then((response) => {
+            response.blob().then((blob) => {
+                const fileURL =
+                    window.URL.createObjectURL(blob);
+                let alink = document.createElement("a");
+                alink.href = fileURL;
+                alink.download = "Resume.pdf";
+                alink.click();
+            });
+        });
+    };
+
     return (
     <div>
       <header className='header'>
@@ -21,6 +38,7 @@ const Home = () => {
           knowledge of computer programming.
         </p>
       </header>
+      <a href='Resume.pdf' download="Resume.pdf">Download resume</a>
       <br/>
       <h1>Software Development</h1>
       <div className='flexbox'>
