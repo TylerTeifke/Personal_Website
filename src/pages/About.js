@@ -9,6 +9,7 @@ const About = () => {
     <div>
       <header className="header">
         <PageList/>
+        <h1>About Me</h1>
         <img src={picture} className="picture" alt="" />
         <p className='Intro-text'>
           I am a computer programmer from Bothell, Washington, with
@@ -22,14 +23,8 @@ const About = () => {
           If you are a recruiter for a company and any of this sounds interesting to you, then fell free
           to contact me using one of the methods below. I am available for a chat any time.
         </p>
-        <a>
-          email: tylerteifke@gmail.com
-        </a>
-        <a>
-          Phone Number: 425-892-0980
-        </a>
-        <HyperLink web_page={'https://www.linkedin.com/in/tyler-teifke/'} name={'LinkedIn'}/>
-        <HyperLink web_page={'https://github.com/TylerTeifke'} name={'GitHub'}/>
+        <HyperLink web_page={'https://www.linkedin.com/in/tyler-teifke/'} name={'My LinkedIn'}/>
+        <HyperLink web_page={'https://github.com/TylerTeifke'} name={'My GitHub'}/>
       </header>
     </div>
   );

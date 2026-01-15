@@ -36,7 +36,7 @@ const Personal = () => {
             <h2>
                 ADAM
             </h2>
-            <Project image={ADAM} project_link={'https://github.com/TylerTeifke/ADAM'} description={"I created an interactive web application in which a machine called ADAM talks to the user. The user is also able to interact with ADAM in various ways, such as changing the color of the background and rotating ADAM' sprite. This project involved the use of React.js to develop the application, and specifically involved an understanding of the useState and useEffect hooks to make and keep track of changes the user makes to web pages. I also did a bit of creative writing for ADAM's dialogue."}/>
+            <Project image={ADAM} project_link={'https://github.com/TylerTeifke/ADAM'} description={"I created an interactive web application in which a machine called ADAM talks to the user. The user is also able to interact with ADAM in various ways, such as changing the color of the background and rotating ADAM's sprite. This project involved the use of React.js to develop the application, and specifically involved an understanding of the useState and useEffect hooks to make and keep track of changes the user makes to the various web pages. I also did a bit of creative writing for ADAM's dialogue."}/>
             <br/>
             <h2>
                 Hidden Card Game

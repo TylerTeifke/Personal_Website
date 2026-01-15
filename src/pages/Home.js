@@ -11,19 +11,6 @@ import './Page.css'
 //import 'bootstrap/dist/css/bootstrap.css';
 
 const Home = () => {
-    const downloadResume = () => {
-      //Code gotten from: https://www.geeksforgeeks.org/reactjs/how-to-download-pdf-file-in-reactjs/
-      fetch("file:///C:/Users/dante/OneDrive/Documents/Resume/Resume.pdf").then((response) => {
-            response.blob().then((blob) => {
-                const fileURL =
-                    window.URL.createObjectURL(blob);
-                let alink = document.createElement("a");
-                alink.href = fileURL;
-                alink.download = "Resume.pdf";
-                alink.click();
-            });
-        });
-    };
 
     return (
     <div>
@@ -36,7 +23,7 @@ const Home = () => {
           knowledge of computer programming.
         </p>
       </header>
-      <a href='Resume.pdf' download="Resume.pdf">Download resume</a>
+      <a className='button' href='Resume.pdf' download="Resume.pdf">Download resume</a>
       <br/>
       <h1>Software Development</h1>
       <div className='flexbox'>
@@ -65,7 +52,7 @@ const Home = () => {
         <p className='box-text'>
           My skills and knowledge in SQL database development and querying are very robust. On several
           occasions I have created my own database from scratch, including designing the schema for said
-          database.
+          databases.
         </p>
       </div>
       <br/>
