@@ -13,7 +13,7 @@ const About = () => {
         <img src={picture} className="picture" alt="" />
         <p className='Intro-text'>
           I am a computer programmer from Bothell, Washington, with
-          a Bachelors degree in computer science from the University of Washington. I am highly
+          a Bachelors degree in computer science from the University of Washington. I am
           highly proficient in object-oriented programming through languages like Java, C++, and Python,
           all of which I have used on various projects that you can find on this website. I am also
           well versed in the fundamentals of software engineering, SQL database development, and web
