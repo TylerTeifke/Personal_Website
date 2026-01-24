@@ -20,7 +20,7 @@ const About = () => {
           development.
         </p>
         <p className='Intro-text'>
-          If you are a recruiter for a company and any of this sounds interesting to you, then fell free
+          If you are a recruiter for a company and any of this sounds interesting to you, then feel free
           to contact me using one of the methods below. I am available for a chat any time.
         </p>
         <HyperLink web_page={'https://www.linkedin.com/in/tyler-teifke/'} name={'My LinkedIn'}/>
