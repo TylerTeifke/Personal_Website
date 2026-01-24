@@ -9,12 +9,11 @@ const Contact = () => {
             <header className='header'>
                 <PageList/>
                 <h1>Contact Me</h1>
-                <a>
+                <p>
                     email: tylerteifke@gmail.com
-                </a>
-                <a>
+                    <br></br>
                     Phone Number: 425-892-0980
-                </a>
+                </p>
                 <HyperLink web_page={'https://www.linkedin.com/in/tyler-teifke/'} name={'LinkedIn'}/>
             </header>
         </div>
