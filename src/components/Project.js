@@ -5,7 +5,7 @@ import HyperLink from "./HyperLink"
 const Project = ({ image, description, project_link }) => {
     return (
         <div className="box">
-            <img src={image} className="picture"/>
+            <img src={image} className="picture" alt=""/>
             <p className="description">
                 {description} <br/>
                 <HyperLink web_page={project_link} name={'Find the project here'}/>
