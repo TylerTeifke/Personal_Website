@@ -66,6 +66,7 @@ const Personal = () => {
                 </h2>
                 <Project image={lighting} project_link={'https://github.com/TylerTeifke/CSS452_FinalProject'} description={"A prototype lighting engine, designed with javaScript and HTML, I made with the help of another university student. My primary contribution was programming the APIs for moving around lights, changing their color, and increasing or decreasing the brightness of lights."}/>
             </FadeInSection>
+            <br/>
         </div>
     )
 }

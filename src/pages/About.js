@@ -26,6 +26,7 @@ const About = () => {
         <HyperLink web_page={'https://www.linkedin.com/in/tyler-teifke/'} name={'My LinkedIn'}/>
         <HyperLink web_page={'https://github.com/TylerTeifke'} name={'My GitHub'}/>
       </header>
+      <br></br>
     </div>
   );
 }
