@@ -10,7 +10,9 @@ const Contact = () => {
                 <PageList/>
                 <h1>Contact Me</h1>
                 <p>
-                    email: tylerteifke@gmail.com
+                    Personal Email: tylerteifke@gmail.com
+                    <br></br>
+                    Work Email: tylert@electroimpact.com
                     <br></br>
                     Phone Number: 425-892-0980
                 </p>

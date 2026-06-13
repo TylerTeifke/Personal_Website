@@ -17,11 +17,11 @@ const About = () => {
           highly proficient in object-oriented programming through languages like Java, C++, and Python,
           all of which I have used on various projects that you can find on this website. I am also
           well versed in the fundamentals of software engineering, SQL database development, and web
-          development.
+          development. I am currently employed at Electroimpact as programming intern, where I primarily
+          work with C# and .NET.
         </p>
         <p className='Intro-text'>
-          If you are a recruiter for a company and any of this sounds interesting to you, then feel free
-          to contact me using one of the methods below. I am available for a chat any time.
+          Feel free to reach out to me on one of the following websites below.
         </p>
         <HyperLink web_page={'https://www.linkedin.com/in/tyler-teifke/'} name={'My LinkedIn'}/>
         <HyperLink web_page={'https://github.com/TylerTeifke'} name={'My GitHub'}/>
